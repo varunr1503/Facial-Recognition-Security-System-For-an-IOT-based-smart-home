@@ -22,16 +22,16 @@ The project initially involved three main programs:
 
 2. **Face Training**:
 
-   - Trained a facial recognition model using LBPH (`cv2.face.LBPHFaceRecognizer_create()`).
-   - Used the Haar Cascade classifier for detecting faces (`cv2.CascadeClassifier("haarcascade_frontalface_default.xml")`).
+   - Trained a facial recognition model using LBPH.
+   - Used the Haar Cascade classifier for detecting faces.
 
 3. **Face Recognition**:
-   - Loaded the trained model using LBPH (`cv2.face.LBPHFaceRecognizer_create()`).
+   - Loaded the trained model using LBPH .
    - Used the trained model for real-time face recognition.
 
 ## Improved Implementation
 
 The system was improved by integrating it with an IoT-based smart home setup and replacing the facial recognition model with a more robust deep learning model:
 
-- **Model**: The facial recognition model was upgraded to `InceptionResnetV1(pretrained='vggface2')`, a deep learning model that offers higher accuracy and robustness.
+- **Model**: The facial recognition model was upgraded to `InceptionResnetV1`, a deep learning model that offers higher accuracy and robustness.
 - **IoT Integration**: The system was integrated with the ESP8266 microcontroller to interact with the smart home environment.
