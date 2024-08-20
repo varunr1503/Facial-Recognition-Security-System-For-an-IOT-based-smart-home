@@ -35,3 +35,9 @@ The system was improved by integrating it with an IoT-based smart home setup and
 
 - **Model**: The facial recognition model was upgraded to `InceptionResnetV1`, a deep learning model that offers higher accuracy and robustness.
 - **IoT Integration**: The system was integrated with the ESP8266 microcontroller to interact with the smart home environment.
+
+![Realtime recognition of 2 users](images/Realtime%20recognition.png)
+
+![IOT smart home model](images/iot%20smart%20home.png)
+
+![Web interface for accessing smart home](images/web%20interface.png)
